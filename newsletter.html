@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>SheCodes Newsletter</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Newsletter</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Signup Section -->
+        <section>
+            <h2>Subscribe to Our Newsletter</h2>
+            <form action="#" method="post">
+
+                <!-- Full Name -->
+                <div>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div><br>
+
+                <!-- Email -->
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div><br>
+
+                <!-- Age -->
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" min="13" max="120">
+                </div><br>
+
+                <!-- How did you hear? -->
+                <div>
+                    <label for="hear">How did you hear about us?</label><br>
+                    <select id="hear" name="hear">
+                        <option value="">--Choose--</option>
+                        <option value="social">Social Media</option>
+                        <option value="friend">Friend</option>
+                        <option value="ad">Ad</option>
+                        <option value="search">Search</option>
+                    </select>
+                </div><br>
+
+                <!-- Interests  -->
+                <div>
+                    <p>Interests:</p>
+                    <input type="checkbox" id="tech" name="interests" value="Tech">
+                    <label for="tech">Tech</label><br>
+                    <input type="checkbox" id="health" name="interests" value="Health">
+                    <label for="health">Health</label><br>
+                    <input type="checkbox" id="business" name="interests" value="Business">
+                    <label for="business">Business</label><br>
+                    <input type="checkbox" id="entertainment" name="interests" value="Entertainment">
+                    <label for="entertainment">Entertainment</label>
+                </div><br>
+
+                <!-- Frequency  -->
+                <div>
+                    <p>Preferred Frequency:</p>
+                    <input type="radio" id="daily" name="frequency" value="Daily" required>
+                    <label for="daily">Daily</label><br>
+                    <input type="radio" id="weekly" name="frequency" value="Weekly">
+                    <label for="weekly">Weekly</label><br>
+                    <input type="radio" id="monthly" name="frequency" value="Monthly">
+                    <label for="monthly">Monthly</label>
+                </div><br>
+
+                <!-- Comments -->
+                <div>
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div><br>
+
+                <!-- Subscribe Button -->
+                <div>
+                    <button type="submit">Subscribe</button>
+                </div>
+
+            </form>
+        </section>
+
+        <!-- Popular Topics Section -->
+        <section>
+            <h2>Popular Topics This Week</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Articles</th>
+                        <th>Most Popular Day</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AI News</td>
+                        <td>12</td>
+                        <td>Monday</td>
+                    </tr>
+                    <tr>
+                        <td>Web Dev</td>
+                        <td>8</td>
+                        <td>Wednesday</td>
+                    </tr>
+                    <tr>
+                        <td>Startups</td>
+                        <td>5</td>
+                        <td>Friday</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SheCodes. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
