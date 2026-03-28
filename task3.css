@@ -1,0 +1,80 @@
+/* Page setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Page title */
+h1 {
+    margin: 40px 0;
+    color: #00796b;
+    font-size: 2.5rem;
+}
+
+/* Container for boxes (flex layout) */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Wrap boxes on smaller screens */
+    padding: 20px;
+}
+
+/* Base box style */
+.box {
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+/* Hover effect for interactivity */
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Box 1 - Python */
+.box1 {
+    background-color: #306998; /* Python blue */
+    border: 3px solid #ffd43b; /* Python yellow */
+    margin: 10px;
+    padding: 25px;
+}
+
+/* Box 2 - JavaScript */
+.box2 {
+    background-color: #f7df1e; /* JS yellow */
+    color: #333; /* Dark text for contrast */
+    border: 3px solid #323330; /* JS dark border */
+    margin: 15px;
+    padding: 25px;
+}
+
+/* Box 3 - C++ */
+.box3 {
+    background-color: #004482; /* C++ dark blue */
+    border: 3px solid #00a0e3; /* bright border */
+    margin: 20px;
+    padding: 25px;
+}
+
+/* Box headings */
+.box h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+}
+
+/* Box paragraphs */
+.box p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
